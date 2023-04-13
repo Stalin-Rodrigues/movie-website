@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Responsive Movies Website</title>
+	<!-- Link to CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Link Swiper css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="img/fav-icon.jpeg" type="image/x-icon">
+	<!-- Box Icons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+    <!-- css for pre Loader -->
+    <link rel="stylesheet" type="text/css" href="style2.css">	 	
+</head>
+<body>
+<!-- pre loader -->
+     <div class="preloader">
+       <div class="preloader-text">Loading...</div>
+       <div class="preloader-animation"></div>
+     </div>
+	 <!-- full content -->
+     <div class="content">
+     <!-- Header -->
+	 <header>
+	      <!-- Nav -->
+		  <div class="nav container">
+		       <!-- Logo -->
+			   <a href="index.html" class="logo">
+			        Marvelous
+			   </a>
+			   <!-- Search Box-->
+			   <div class="search-box">
+			        <input type="search" name="" id="search-input" placeholder="search movie">
+					<i class='bx bx-search'></i>
+			   </div>
+			   <!-- Sign in -->
+			    <div class="Sign">
+	               <a href="Sign/Sign_In.php" class="next-btn">Sign IN</a>
+	            </div>
+			   <!-- NavBar -->
+			   <div class="navbar">
+			        <a href="#home" class="nav-link">
+					    <i class='bx bx-home' ></i>
+						<span class="nav-link-title">Home</span>
+					</a>
+					 <a href="#popular" class="nav-link">
+					    <i class='bx bxs-hot' ></i>
+						<span class="nav-link-title">Trending</span>
+					 </a>
+					 <a href="#movies" class="nav-link">
+					    <i class='bx bx-compass' ></i>
+						<span class="nav-link-title">Explore</span>
+					 </a>
+					 <a href="play-page.html" class="nav-link">
+					    <i class='bx bx-tv' ></i>
+						<span class="nav-link-title">Movies</span>
+					</a>
+			   </div>
+		  </div>   
+	 </header>
+	 <!-- Home -->
+	 <section class= "home container" id="home">
+	     <!-- home image -->
+	     <img src="img/home-background.jpg" alt="" class="home-img">
+		 <!-- Home Text -->
+		 <div class="home-text">
+		      <h1 class="home-title">Pathaan</h1>
+			  <p>Releasing 25 january</p>
+			  <a href="play-page/Pathan.mp4" class="watch-btn">
+			      <i class='bx bx-right-arrow' ></i>
+				  <span>Watch the trailer</span>
+			  </a>  
+		 </div>
+	 </section>
+	 <!-- home end -->
+	 <!-- popular section start -->
+	  <section class="popular container" id="popular">
+	     <!-- Heading -->
+		 <div class="heading">
+		     <h2 class="heading-title">Popular Movies</h2>
+			 <!-- Swiper Buttons -->
+			 <div class="swiper-btn">
+			     <div class="swiper-button-prev"></div>
+			     <div class="swiper-button-next"></div>                 
+			 </div>
+		 </div>
+		 <!-- Content -->
+		 <div class="popular-content swiper">
+		     <div class="swiper-wrapper">
+			     <!-- Movie Box 1 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Spider-Man: No Way Home</h2>
+							<span class="Movie-type">Action</span>
+							<a href="https://www.youtube.com/watch?v=rt-2cxAiPJk" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 2 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Escape 2120</h2>
+							<span class="Movie-type">Action/Adventure</span>
+							<a href="https://www.youtube.com/watch?v=UZdJDYSu6nk" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 3 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Loki</h2>
+							<span class="Movie-type">Action</span>
+							<a href="https://www.youtube.com/watch?v=nW948Va-l10" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 4 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-4.jfif" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Wednesday</h2>
+							<span class="Movie-type">Comedy horror</span>
+							<a href="https://www.youtube.com/watch?v=Di310WS8zLk" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 5 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">The Lost City Of Z</h2>
+							<span class="Movie-type">Adventure</span>
+							<a href="https://www.youtube.com/watch?v=T4OoixVsfiA" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 6 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Squid Game</h2>
+							<span class="Movie-type">Action/Drama</span>
+							<a href="https://www.youtube.com/watch?v=oqxAJKy0ii4" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 7 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">Eternals</h2>
+							<span class="Movie-type">Action</span>
+							<a href="https://www.youtube.com/watch?v=x_me3xsvDgk" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>
+				 <!-- Movie Box 8 -->
+                 <div class="swiper-slide">
+				     <div class="movie-box">
+			            <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+						    <h2 class="movie-title">The Flash</h2>
+							<span class="Movie-type">Action/Sci-Fi</span>
+							<a href="https://www.youtube.com/watch?v=hebWYacbdvc" class="watch-btn play-btn">
+			                   <i class='bx bx-right-arrow' ></i>				       
+			                </a> 
+						</div>						
+					 </div>
+				 </div>         
+             </div> 
+		 </div>
+	  </section>
+	 <!-- popular section end -->
+     <!-- Movies section Start -->
+	 <section class="movies container" id="movies">
+	    <div class="heading">
+		     <h2 class="heading-title">Movies And Shows</h2>			
+		</div>      
+	 <!-- Movies Content -->
+	 <div class="movies-content">
+          <!-- Movies Box 1 -->
+		  <div class="movie-box">
+			   <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Jumanji: Welcome to the Jungle</h2>
+						 <span class="Movie-type">Action</span>
+						 <a href="play-page.html" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+	      <!-- Movies Box 2 -->
+		  <div class="movie-box">
+			   <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">VIP-2</h2>
+						 <span class="Movie-type">Action/Comedy</span>
+						 <a href="https://www.youtube.com/watch?v=1Gk4kR8ijiw" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>		
+	      <!-- Movies Box 3 -->
+		  <div class="movie-box">
+			   <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Shang-Chi</h2>
+						 <span class="Movie-type">Action/Sci-Fi</span>
+						 <a href="https://www.youtube.com/watch?v=6Vddfmcm4uY" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+		  <!-- Movies Box 4 -->
+		  <div class="movie-box">
+			   <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Agents of S.H.I.E.L.D</h2>
+						 <span class="Movie-type">Action/Sci-Fi</span>
+						 <a href="https://www.youtube.com/watch?v=wrKssByuVt0" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+		  <!-- Movies Box 5 -->
+		  <div class="movie-box">
+			   <img src="img/movie-5.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Spectre</h2>
+						 <span class="Movie-type">Action</span>
+						 <a href="https://www.youtube.com/watch?v=x8xfcx8YDkg" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+		  <!-- Movies Box 6 -->
+		  <div class="movie-box">
+			   <img src="img/movie-6.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Money Heist</h2>
+						 <span class="Movie-type">Action/Sci-Fi</span>
+						 <a href="https://www.youtube.com/watch?v=8QkyLqmJCMM" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+	      <!-- Movies Box 7 -->
+		  <div class="movie-box">
+			   <img src="img/movie-7.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">LUDO</h2>
+						 <span class="Movie-type">Comedy</span>
+						 <a href="https://www.youtube.com/watch?v=ZT9Gihrxa4Q" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		  </div>
+	      <!-- Movies Box 8 -->
+		  <div class="movie-box">
+			   <img src="img/movie-8.jpg" alt="" class="movie-box-img">
+                   <div class="box-text">
+						 <h2 class="movie-title">Johnny English</h2>
+						 <span class="Movie-type">Action/Comedy</span>
+						 <a href="https://www.youtube.com/watch?v=-Qv6p6pTz5I" class="watch-btn play-btn">
+			                <i class='bx bx-right-arrow' ></i>				       
+			             </a> 
+				   </div>						
+		    </div>
+	 </div>	
+	</section>
+	 <!-- Movies section end -->
+     <!-- Contact Us -->
+	 <div class="next-page">
+	    <a href="contact.html" class="next-btn">Contact Us</a>
+	 </div>
+	 <!-- copyright -->
+	 <div class="copyright">
+	      <p>&#169; All Right Reserved</p> 
+	 </div>
+     <!-- Link Swiper js -->
+     <script src="js/swiper-bundle.min.js"></script>
+     <!-- Link to js -->
+	 <script src="js/main.js"></script>
+	 </div>
+	<!-- pre loader js code -->
+	<script src="sc.js"></script>
+</body>
+</html>
