@@ -3,7 +3,7 @@
      slidesPerView:1,     
 	 spaceBetween: 10,
       autoplay: {
-        delay: 5500,
+        delay: 500,
         disableOnInteraction: false,
       },
       pagination: {
